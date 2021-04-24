@@ -1,0 +1,16 @@
+  
+@font-face {
+  font-family: Font;
+  src: url("SansationLight.woff") format("woff");
+}
+body {
+    background-color: #030c1c;
+    color: #ffffff;
+	font-family: Font;
+}
+a {
+	color:#bb5bcf;
+}
+marquee{
+	color:#32e361;
+}
