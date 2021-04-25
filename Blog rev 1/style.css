@@ -3,14 +3,67 @@
   font-family: Font;
   src: url("SansationLight.woff") format("woff");
 }
+@font-face {
+  font-family: FancyFont;
+  src: url("Sweety Rasty.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+}
 body {
     background-color: #030c1c;
     color: #ffffff;
 	font-family: Font;
+	padding: 20px;
 }
 a {
 	color:#bb5bcf;
 }
-marquee{
-	color:#32e361;
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.img {
+  background-color: #010c24;
+  width: 100%;
+  padding: 20px;
+}
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #052b7d;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon{
+	padding:5px;
+	border-radius:5px;
+}
+.icon:hover {
+	background-color:#bb5bcf;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  background: #052b7d;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }
