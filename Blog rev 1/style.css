@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body {
-    background-color: #030c1c;
+    background-color: #1d1e1f;
     color: #ffffff;
 	font-family: Font;
 	padding: 20px;
@@ -34,14 +34,14 @@ a {
   padding-left: 20px;
 }
 .img {
-  background-color: #010c24;
+  background-color: #1d1e1f;
   width: 100%;
   padding: 20px;
 }
 .card {
   padding: 20px;
   margin-top: 20px;
-  background-color: #052b7d;
+  background-color: #424547;
 }
 .row:after {
   content: "";
@@ -59,7 +59,7 @@ a {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
-  background: #052b7d;
+  background: #424547;
 }
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
